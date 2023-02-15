@@ -1,0 +1,12 @@
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\bin\Debug\net6.0\FadamiCadastroInfra.deps.json
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\bin\Debug\net6.0\FadamiCadastroInfra.dll
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\bin\Debug\net6.0\FadamiCadastroInfra.pdb
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\FadamiCadastroInfra.csproj.AssemblyReference.cache
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\FadamiCadastroInfra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\FadamiCadastroInfra.AssemblyInfoInputs.cache
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\FadamiCadastroInfra.AssemblyInfo.cs
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\FadamiCadastroInfra.csproj.CoreCompileInputs.cache
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\FadamiCadastroInfra.dll
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\refint\FadamiCadastroInfra.dll
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\FadamiCadastroInfra.pdb
+C:\Users\julli\source\repos\FadamiCadastro\FadamiCadastroInfra\obj\Debug\net6.0\ref\FadamiCadastroInfra.dll

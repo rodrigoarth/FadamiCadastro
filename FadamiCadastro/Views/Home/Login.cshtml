@@ -1,0 +1,56 @@
+﻿@model FadamiCadastro.ViewModels.LoginViewModel
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="stylesheet" href="~/css/base.css">
+
+    <title>Login</title>
+</head>
+<body>
+    @if (TempData["Error"] != null)
+    {
+        <script>
+
+            alert('@TempData["Error"]');
+
+        </script>
+
+    }
+    <div class="container">
+        <div class="my-form">
+            <div class="my-form-title">
+                <h3>LOGIN</h3>
+                <h3> @Context.Session.GetString("UserName")</h3>
+            </div>
+
+            <form asp-action="UserLogin" method="post">
+                <div class="form-control">
+                    <label for="Login"></label>
+                    <input type="text" asp-for="Login" required name="Login" placeholder="Digite seu e-mail" id="login">
+                </div>
+
+                <div class="form-control">
+                    <label for="Senha"></label>
+                    <input type="password" asp-for="Senha" required name="Senha" placeholder="Digite sua senha" id="senha">
+                </div>
+
+                <div class="form_action">
+                    <button type="submit">Conectar-se</button>
+                    <a asp-controller="Cadastro" asp-action="Index">Criar Conta</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

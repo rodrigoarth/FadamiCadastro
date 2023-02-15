@@ -1,0 +1,51 @@
+﻿@model FadamiCadastro.ViewModels.ListaUsuarioViewModel
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="~/css/table.css">
+    <link rel="stylesheet" href="~/css/base.css">
+
+    <title>Lista</title>
+</head>
+<body>
+    <div class="container-table">
+        <div class="my-form">
+            <div class="my-form-title">
+                <h3>Lista de Usuário</h3>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>CPF</th>
+                        <th>Último Acesso</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model.Usuarios)
+                    {
+                        <form asp-action="Editar" method="post">
+                        <tr>
+                            <td>@user.Id</td>
+                            <td>@user.Nome</td>
+                            <td>@user.Login</td>
+                            <td>@user.CPF</td>
+                            <td>@user.UltimoAcesso.ToString("d")</td>
+                            <td><a href="form.page.html">Editar</a></td>
+                        </tr>
+                        </form>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
